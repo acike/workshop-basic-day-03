@@ -2,17 +2,17 @@ package com.exam.book.harry;
 import org.springframework.stereotype.Component;
 
 public class BookResponse {
-    private int bookId;
+    private int id;
     private String seriesName;
     private int price;
     private int amount;
 
     public int getBookId() {
-        return bookId;
+        return id;
     }
 
-    public void setBookId(int bookId) {
-        this.bookId = bookId;
+    public void setBookId(int id) {
+        this.id = id;
     }
 
     public String getSeriesName() {

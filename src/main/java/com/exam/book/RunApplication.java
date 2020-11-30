@@ -18,12 +18,22 @@ public class RunApplication {
 
     @PostConstruct
     public void initialDataForTestingBook() {
+
         Book book2 = new Book();
         book2.setBookId(1);
         book2.setSeriesName("Series I");
         book2.setPrice(100);
         book2.setAmount(100);
         repository.save(book2);
+    }
+    @PostConstruct
+    public void initialDataForTestingBook2() {
+        Book book3 = new Book();
+        book3.setBookId(2);
+        book3.setSeriesName("Series II");
+        book3.setPrice(100);
+        book3.setAmount(100);
+        repository.save(book3);
     }
 
     public static void main(String[] args) {
