@@ -19,7 +19,7 @@
   * [JsonServer](https://github.com/typicode/json-server)
   * [Mock Server with Postman](https://learning.postman.com/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
 
-Design
+***Design
 - landing page 
 - user search harry potter 
 - show item
