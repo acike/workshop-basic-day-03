@@ -18,3 +18,21 @@
   * [Mountebank](http://www.mbtest.org/)
   * [JsonServer](https://github.com/typicode/json-server)
   * [Mock Server with Postman](https://learning.postman.com/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
+
+Design
+- landing page 
+- user search harry potter 
+- show item
+	  Detail
+	- Book Series
+	- Price
+	- amount remaining
+	
+- user added product in cart 
+	 Txn detail
+	 -CustID
+	 -Amount Items
+	 -Price
+	 -Book Series
+- Calculate price
+- Show Summary
