@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "http://localhost:8080/v1/account/1",
+			"name": "http://localhost:8080/v2/book/1",
 			"event": [
 				{
 					"listen": "test",
@@ -49,15 +49,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/v1/account/1",
+					"raw": "http://localhost:8080/v2/book/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"v1",
-						"account",
+						"v2",
+						"book",
 						"1"
 					]
 				}
